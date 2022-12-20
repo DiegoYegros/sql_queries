@@ -1,0 +1,39 @@
+<!-- Ejercicio 1
+• Buscar cinco imágenes de 200x200px y posicionarlas
+en un contenedor como la muestra.
+• El contenedor con un borde, centrado en la pantalla
+horizontalmente. Del ancho y alto necesario para
+contener las imágenes como la muestra.
+• Al poner el mouse encima de una de las cinco
+imágenes la misma debe:
+• Resaltar sus bordes, cambiando de color los mismos
+• Mostrarse más arriba que las demás imágenes, en caso ya
+no esté de esa manera.
+• Todas las imágenes posteriores a la que tiene el mouse,
+deben desaparecer. Es decir, si pongo el mouse encima de
+la 3era imagen contando de izquierda a derecha, la misma
+se debe resaltar, mostrarse encima de la primera y de la
+segunda; y la cuarte y quinta imagen deben desaparecer.
+• Al sacar el mouse de encima de la imagen, debe
+volverse a la imagen original.
+• Solo usar HTML y CSS, no otros lenguajes ni
+herramientas (léase Javascript) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mydecoration.css">
+    <title>Contenedor</title>
+</head>
+<body>
+    <div class="container" id="contenedor">
+        <img id="img1" class="imagen1 grupo1" src="Assets/Messi.jpg" alt="Messi 1">
+        <img id="img2" class ="imagen2 grupo" src="Assets/Messi2.jpg" alt="Messi 2">
+        <img id="img3" class ="imagen3 grupo" src="Assets/Messi3.jpg" alt="Messi 3">
+        <img id="img4" class ="imagen4 grupo" src="Assets/Messi4.jpg" alt="Messi 4">
+        <img id="img5" class ="imagen5 grupo" src="Assets/Messi5.png" alt="Messi 5">
+    </div>
+</body>
+</html>

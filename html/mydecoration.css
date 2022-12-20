@@ -1,0 +1,72 @@
+.container {
+    border: 5px solid rgb(29, 150, 187);
+    height: 710px;
+    width: 710px;
+    margin: 2% 30% 2% 30%;
+    display: table;
+}
+
+img {
+    border: solid 5px rgb(85, 231, 129);
+    width: 200px;
+    height: 200px;
+}
+.imagen2{
+    position:absolute;
+    margin-left: -5%;
+    bottom: 59%;
+}
+.imagen3 {
+    position: absolute;
+    margin-left: 1%;
+    bottom: 45%;
+}
+.imagen4 {
+    position: absolute;
+    margin-left: 7%;
+    bottom: 31%;
+}
+.imagen5 {
+    position: absolute;
+    margin-left: 13%;
+    bottom: 18%;
+}
+
+.imagen1:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen1:hover{
+    width: 210px;
+    height: 210px;
+}
+.imagen2:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen2:hover {
+    width: 210px;
+    height: 210px;
+}
+.imagen3:hover~img:nth-child(n) {
+    visibility: hidden;
+}
+
+.imagen3:hover {
+    width: 210px;
+    height: 210px;
+}
+.imagen4:hover~img:nth-child(n) {
+    visibility: hidden;
+}
+
+.imagen4:hover {
+    width: 210px;
+    height: 210px;
+}
+.imagen5:hover~img:nth-child(n) {
+    visibility: hidden;
+}
+
+.imagen5:hover {
+    width: 210px;
+    height: 210px;
+}

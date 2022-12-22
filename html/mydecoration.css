@@ -32,46 +32,12 @@ img {
     bottom: 18%;
 }
 
-.imagen1:hover ~ img:nth-child(n){
+img:hover~img:nth-child(n) {
     visibility: hidden;
 }
-.imagen1:hover{
+img:hover {
     width: 210px;
     height: 210px;
     border: solid 10px blueviolet;
 }
-.imagen2:hover ~ img:nth-child(n){
-    visibility: hidden;
-}
-.imagen2:hover {
-    width: 210px;
-    height: 210px;
-    border: solid 10px blueviolet;
-}
-.imagen3:hover~img:nth-child(n) {
-    visibility: hidden;
-}
-
-.imagen3:hover {
-    width: 210px;
-    height: 210px;
-    border: solid 10px blueviolet;
-}
-.imagen4:hover~img:nth-child(n) {
-    visibility: hidden;
-}
-
-.imagen4:hover {
-    width: 210px;
-    height: 210px;
-    border: solid 10px blueviolet;
-}
-.imagen5:hover~img:nth-child(n) {
-    visibility: hidden;
-}
-
-.imagen5:hover {
-    width: 210px;
-    height: 210px;
-    border: solid 10px blueviolet;
-}
+ 
